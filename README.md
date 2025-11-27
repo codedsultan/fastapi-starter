@@ -1,9 +1,3 @@
-Here is a **clean, simple, ready-to-ship README.md** for your current FastAPI starter app + Docker + GitHub Actions workflow.
-
-It is written to be copy-paste ready and works perfectly with your current folder structure & pipeline.
-
----
-
 # 📘 FastAPI Starter App (Docker + GitHub Actions CI/CD)
 
 This is a minimal FastAPI application packaged with Docker and automatically built/published using GitHub Actions.
@@ -100,7 +94,7 @@ What it does:
 Your image will be available at:
 
 ```
-ghcr.io/codedsultan/fastapi-starter:<tag>
+ghcr.io/<username>/fastapi-starter:<tag>
 ```
 
 Examples:
@@ -153,11 +147,3 @@ ghcr.io/codedsultan/fastapi-starter:1.0
 MIT
 
 ---
-
-If you want, I can generate:
-
-✅ A docker-compose file
-✅ A production version (gunicorn + uvicorn workers)
-✅ A Kubernetes manifest
-✅ A Makefile for common commands
-Just tell me.
